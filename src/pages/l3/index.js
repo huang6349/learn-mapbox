@@ -9,6 +9,7 @@ const IndexPage = function() {
     latitude: 30.6,
     zoom: 12,
     bearing: 0,
+    pitch: 50, // 设置倾斜角度，使地图有 3D 的效果
   });
 
   return (
