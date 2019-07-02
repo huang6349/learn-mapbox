@@ -27,7 +27,7 @@ export default {
         pwa: false,
         hd: false,
         fastClick: false,
-        title: 'basic-project-template',
+        title: 'learn-mapbox',
       },
     ],
   ],
@@ -39,6 +39,9 @@ export default {
     '@border-radius-base': '2px',
     '@table-padding-vertical': '10px',
     '@table-padding-horizontal': '12px',
+  },
+  define: {
+    'process.env.MapboxAccessToken': process.env.MapboxAccessToken,
   },
   extraBabelPlugins: [
     [
