@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "deploy": "yarn run build && gh-pages -d dist --branch gh-learn-mapbox --repo https://github.com/huang6349/netlify.git",
     "start": "umi dev",
     "start:no-mock": "cross-env MOCK=none umi dev",
     "build": "cross-env UMI_ENV=prod umi build",
@@ -35,6 +36,7 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
+    "gh-pages": "^2.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.3.0",
     "react-test-renderer": "^16.7.0",
