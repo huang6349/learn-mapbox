@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Tooltip, Tag, Icon } from 'antd';
+import { Tooltip, Tag } from 'antd';
 import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import styles from './index.css';
@@ -41,10 +41,6 @@ const IndexPage = function() {
           </Tooltip>
         </Marker>
         <Popup longitude={114.3} latitude={30.6} offsetTop={-10} closeButton={!1}>
-          <div>自定义弹出层测试，自定义弹出层测试</div>
-          <div>自定义弹出层测试，自定义弹出层测试</div>
-          <img width={140} src="https://www.baidu.com/img/bd_logo1.png" />
-          <br />
           <br />
           <video width={240} controls>
             <source src="https://www.runoob.com/try/demo_source/movie.mp4" type="video/mp4" />
