@@ -22,6 +22,7 @@ const BasicLayout = ({ location: { pathname }, children }) => {
           <Menu.Item key="/l4">例子4</Menu.Item>
           <Menu.Item key="/l5">例子5</Menu.Item>
           <Menu.Item key="/l6">例子6</Menu.Item>
+          <Menu.Item key="/l7">例子7</Menu.Item>
         </Menu>
       </Layout.Header>
       <Layout.Content className={styles['content']}>{children}</Layout.Content>
