@@ -928,6 +928,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.3.1":
+  version "7.4.5"
+  resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
+  integrity sha1-WCu1MfX53GfS/LaCl5iU914lPxI=
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@7.2.2":
   version "7.2.2"
   resolved "https://registry.npm.taobao.org/@babel/template/download/@babel/template-7.2.2.tgz#005b3fdf0ed96e88041330379e0da9a708eb2907"
@@ -1001,6 +1008,77 @@
   dependencies:
     exec-sh "^0.3.2"
     minimist "^1.2.0"
+
+"@deck.gl/aggregation-layers@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/aggregation-layers/download/@deck.gl/aggregation-layers-7.1.7.tgz#36f1ac813bbaf385cb6f754944745b12abe1f7d0"
+  integrity sha1-NvGsgTu684XLb3VJRHRbEqvh99A=
+  dependencies:
+    d3-hexbin "^0.2.1"
+
+"@deck.gl/core@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/core/download/@deck.gl/core-7.1.7.tgz#8276cccff49198d236abc6f04d602442e3705d53"
+  integrity sha1-gnbMz/SRmNI2q8bwTWAkQuNwXVM=
+  dependencies:
+    "@luma.gl/core" "^7.1.0"
+    gl-matrix "^3.0.0"
+    math.gl "^2.3.0"
+    mjolnir.js "^2.1.2"
+    probe.gl "^3.0.1"
+    seer "^0.2.4"
+    viewport-mercator-project "^6.1.0"
+
+"@deck.gl/geo-layers@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/geo-layers/download/@deck.gl/geo-layers-7.1.7.tgz#b697fefedf1253102d6916e6ce08a90718144f43"
+  integrity sha1-tpf+/t8SUxAtaRbmzgipBxgUT0M=
+  dependencies:
+    h3-js "^3.4.3"
+    long "^3.2.0"
+    s2-geometry "^1.2.10"
+
+"@deck.gl/google-maps@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/google-maps/download/@deck.gl/google-maps-7.1.7.tgz#ec81493e334a3fb6d97a2857ba70ae80911db296"
+  integrity sha1-7IFJPjNKP7bZeihXunCugJEdspY=
+
+"@deck.gl/json@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/json/download/@deck.gl/json-7.1.7.tgz#0313428302598863b44d5442148ae8d34dc422e6"
+  integrity sha1-AxNCgwJZiGO0TVRCFIro003EIuY=
+  dependencies:
+    d3-dsv "^1.0.8"
+
+"@deck.gl/layers@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/layers/download/@deck.gl/layers-7.1.7.tgz#ae47a02727ec27601ab01459f6ef11e3286ed523"
+  integrity sha1-rkegJyfsJ2AasBRZ9u8R4yhu1SM=
+  dependencies:
+    "@loaders.gl/core" "^1.0.3"
+    "@loaders.gl/images" "^1.0.3"
+    "@mapbox/tiny-sdf" "^1.1.0"
+    earcut "^2.0.6"
+
+"@deck.gl/mapbox@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/mapbox/download/@deck.gl/mapbox-7.1.7.tgz#bb59bd412c9c7c2d0147506ba8c2965089ec7fed"
+  integrity sha1-u1m9QSycfC0BR1BrqMKWUInsf+0=
+
+"@deck.gl/mesh-layers@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/mesh-layers/download/@deck.gl/mesh-layers-7.1.7.tgz#e81c63d2042e74484446560a6b144bab4885d589"
+  integrity sha1-6Bxj0gQudEhERlYKaxRLq0iF1Yk=
+  dependencies:
+    "@loaders.gl/core" "^1.0.3"
+    "@loaders.gl/images" "^1.0.3"
+
+"@deck.gl/react@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/@deck.gl/react/download/@deck.gl/react-7.1.7.tgz#fd8b19e3b6a32880bc91566d14a72afa897006aa"
+  integrity sha1-/YsZ47ajKIC8kVZtFKcq+olwBqo=
+  dependencies:
+    prop-types "^15.6.0"
 
 "@jest/console@^24.7.1":
   version "24.7.1"
@@ -1147,6 +1225,73 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
+
+"@loaders.gl/core@^1.0.3":
+  version "1.1.6"
+  resolved "https://registry.npm.taobao.org/@loaders.gl/core/download/@loaders.gl/core-1.1.6.tgz#6963e14e93663d9582238f39e70607b01a172c36"
+  integrity sha1-aWPhTpNmPZWCI4855wYHsBoXLDY=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+
+"@loaders.gl/images@^1.0.3":
+  version "1.1.6"
+  resolved "https://registry.npm.taobao.org/@loaders.gl/images/download/@loaders.gl/images-1.1.6.tgz#21dd3238c97ad1164f7c0ed43d18edaec49d97e1"
+  integrity sha1-Id0yOMl60RZPfA7UPRjtrsSdl+E=
+
+"@luma.gl/constants@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.npm.taobao.org/@luma.gl/constants/download/@luma.gl/constants-7.1.1.tgz#f966fad9069722974e1b7bcae2fcd7a2444090dc"
+  integrity sha1-+Wb62QaXIpdOG3vK4vzXokRAkNw=
+
+"@luma.gl/core@^7.1.0":
+  version "7.1.1"
+  resolved "https://registry.npm.taobao.org/@luma.gl/core/download/@luma.gl/core-7.1.1.tgz#cc9fde5845c2e76b1b1f7a38c6e50ceb49f5bcd1"
+  integrity sha1-zJ/eWEXC52sbH3o4xuUM60n1vNE=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@luma.gl/constants" "7.1.1"
+    "@luma.gl/shadertools" "7.1.1"
+    "@luma.gl/webgl" "7.1.1"
+    "@luma.gl/webgl-state-tracker" "7.1.1"
+    "@luma.gl/webgl2-polyfill" "7.1.1"
+    math.gl "^2.3.0"
+    probe.gl "^3.0.2"
+    seer "^0.2.4"
+
+"@luma.gl/shadertools@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.npm.taobao.org/@luma.gl/shadertools/download/@luma.gl/shadertools-7.1.1.tgz#084f6bd18632784ef20d20c4265a167179da6336"
+  integrity sha1-CE9r0YYyeE7yDSDEJloWcXnaYzY=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    math.gl "^2.3.0"
+
+"@luma.gl/webgl-state-tracker@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.npm.taobao.org/@luma.gl/webgl-state-tracker/download/@luma.gl/webgl-state-tracker-7.1.1.tgz#ffe37273db771d8c73c2ad3acc2933fffa93d388"
+  integrity sha1-/+Nyc9t3HYxzwq06zCkz//qT04g=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@luma.gl/constants" "7.1.1"
+
+"@luma.gl/webgl2-polyfill@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.npm.taobao.org/@luma.gl/webgl2-polyfill/download/@luma.gl/webgl2-polyfill-7.1.1.tgz#ae75512e01e3ccf4cf675f87cdaf238afe7f8267"
+  integrity sha1-rnVRLgHjzPTPZ1+Hza8jiv5/gmc=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@luma.gl/constants" "7.1.1"
+
+"@luma.gl/webgl@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.npm.taobao.org/@luma.gl/webgl/download/@luma.gl/webgl-7.1.1.tgz#6e227d93f6948af639a7399653018aa42c6ca91a"
+  integrity sha1-biJ9k/aUivY5pzmWUwGKpCxsqRo=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@luma.gl/constants" "7.1.1"
+    "@luma.gl/webgl-state-tracker" "7.1.1"
+    "@luma.gl/webgl2-polyfill" "7.1.1"
+    probe.gl "^3.0.2"
 
 "@mapbox/geojson-area@0.2.2":
   version "0.2.2"
@@ -3163,15 +3308,15 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@2, commander@^2.11.0, commander@^2.12.1, commander@^2.14.1, commander@^2.18.0, commander@^2.19.0, commander@^2.9.0, commander@~2.20.0:
+  version "2.20.0"
+  resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
+  integrity sha1-1YuytcHuj4ew00ACfp6U4iLFpCI=
+
 commander@2.17.x:
   version "2.17.1"
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
   integrity sha1-vXerfebelCBc6sxy8XFtKfIKd78=
-
-commander@^2.11.0, commander@^2.12.1, commander@^2.14.1, commander@^2.18.0, commander@^2.19.0, commander@^2.9.0, commander@~2.20.0:
-  version "2.20.0"
-  resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
-  integrity sha1-1YuytcHuj4ew00ACfp6U4iLFpCI=
 
 commander@~2.13.0:
   version "2.13.0"
@@ -3741,6 +3886,20 @@ cyclist@~0.2.2:
   resolved "https://registry.npm.taobao.org/cyclist/download/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
   integrity sha1-GzN5LhHpFKL9bW7WRHRkRE5fpkA=
 
+d3-dsv@^1.0.8:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/d3-dsv/download/d3-dsv-1.1.1.tgz#aaa830ecb76c4b5015572c647cc6441e3c7bb701"
+  integrity sha1-qqgw7LdsS1AVVyxkfMZEHjx7twE=
+  dependencies:
+    commander "2"
+    iconv-lite "0.4"
+    rw "1"
+
+d3-hexbin@^0.2.1:
+  version "0.2.2"
+  resolved "https://registry.npm.taobao.org/d3-hexbin/download/d3-hexbin-0.2.2.tgz#9c5837dacfd471ab05337a9e91ef10bfc4f98831"
+  integrity sha1-nFg32s/UcasFM3qeke8Qv8T5iDE=
+
 damerau-levenshtein@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npm.taobao.org/damerau-levenshtein/download/damerau-levenshtein-1.0.5.tgz#780cf7144eb2e8dbd1c3bb83ae31100ccc31a414"
@@ -3821,6 +3980,21 @@ decamelize@^2.0.0:
   integrity sha1-ZW17vICUxMeI6lPFhAkIycfQY8c=
   dependencies:
     xregexp "4.0.0"
+
+deck.gl@^7.1.7:
+  version "7.1.7"
+  resolved "https://registry.npm.taobao.org/deck.gl/download/deck.gl-7.1.7.tgz#f25d5380c1a551b0bb672aaebc8ed5c1bf66eff9"
+  integrity sha1-8l1TgMGlUbC7ZyquvI7Vwb9m7/k=
+  dependencies:
+    "@deck.gl/aggregation-layers" "7.1.7"
+    "@deck.gl/core" "7.1.7"
+    "@deck.gl/geo-layers" "7.1.7"
+    "@deck.gl/google-maps" "7.1.7"
+    "@deck.gl/json" "7.1.7"
+    "@deck.gl/layers" "7.1.7"
+    "@deck.gl/mapbox" "7.1.7"
+    "@deck.gl/mesh-layers" "7.1.7"
+    "@deck.gl/react" "7.1.7"
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -4285,7 +4459,7 @@ dva@^2.4.1:
     react-router-redux "5.0.0-alpha.9"
     redux "^3.7.2"
 
-earcut@^2.1.5:
+earcut@^2.0.6, earcut@^2.1.5:
   version "2.1.5"
   resolved "https://registry.npm.taobao.org/earcut/download/earcut-2.1.5.tgz#829280a9a3a0f5fee0529f0a47c3e4eff09b21e4"
   integrity sha1-gpKAqaOg9f7gUp8KR8Pk7/CbIeQ=
@@ -5858,6 +6032,11 @@ h2x-types@^1.1.0:
   resolved "https://registry.npm.taobao.org/h2x-types/download/h2x-types-1.1.0.tgz#ec0d5e3674e2207269f32976ac9c82aaff4818e6"
   integrity sha1-7A1eNnTiIHJp8yl2rJyCqv9IGOY=
 
+h3-js@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.npm.taobao.org/h3-js/download/h3-js-3.4.3.tgz#7a9fe281fbd962c56954aab3955032ae08ceb241"
+  integrity sha1-ep/igfvZYsVpVKqzlVAyrgjOskE=
+
 hammerjs@^2.0.8:
   version "2.0.8"
   resolved "https://registry.npm.taobao.org/hammerjs/download/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
@@ -6202,17 +6381,17 @@ hyphenate-style-name@^1.0.2:
   resolved "https://registry.npm.taobao.org/hyphenate-style-name/download/hyphenate-style-name-1.0.3.tgz#097bb7fa0b8f1a9cf0bd5c734cf95899981a9b48"
   integrity sha1-CXu3+guPGpzwvVxzTPlYmZgam0g=
 
+iconv-lite@0.4, iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
+  version "0.4.24"
+  resolved "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
+  integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3"
+
 iconv-lite@0.4.23:
   version "0.4.23"
   resolved "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.23.tgz#297871f63be507adcfbfca715d0cd0eed84e9a63"
   integrity sha1-KXhx9jvlB63Pv8pxXQzQ7thOmmM=
-  dependencies:
-    safer-buffer ">= 2.1.2 < 3"
-
-iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
-  version "0.4.24"
-  resolved "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
-  integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
@@ -7988,6 +8167,11 @@ loglevel@^1.4.1:
   resolved "https://registry.npm.taobao.org/loglevel/download/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
   integrity sha1-4PyVEztu8nbNyIh82vJKpvFW+Po=
 
+long@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npm.taobao.org/long/download/long-3.2.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flong%2Fdownload%2Flong-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
+  integrity sha1-2CG3E4yhy1gcFymQ7xTbIAtcR0s=
+
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -8090,6 +8274,14 @@ mapbox-gl@^1.0.0:
     supercluster "^6.0.1"
     tinyqueue "^2.0.0"
     vt-pbf "^3.1.1"
+
+math.gl@^2.3.0:
+  version "2.3.3"
+  resolved "https://registry.npm.taobao.org/math.gl/download/math.gl-2.3.3.tgz#69d07904507145c639835aefcd0ec5e790cd3046"
+  integrity sha1-adB5BFBxRcY5g1rvzQ7F55DNMEY=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    gl-matrix "^3.0.0"
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -8380,7 +8572,7 @@ mixin-object@^2.0.1:
     for-in "^0.1.3"
     is-extendable "^0.1.1"
 
-mjolnir.js@^2.1.1:
+mjolnir.js@^2.1.1, mjolnir.js@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npm.taobao.org/mjolnir.js/download/mjolnir.js-2.1.2.tgz#db89819c418b6f3d200b1c51386fc7487f98bd5a"
   integrity sha1-24mBnEGLbz0gCxxROG/HSH+YvVo=
@@ -9872,6 +10064,13 @@ private@^0.1.6:
   version "0.1.8"
   resolved "https://registry.npm.taobao.org/private/download/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha1-I4Hts2ifelPWUxkAYPz4ItLzaP8=
+
+probe.gl@^3.0.1, probe.gl@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.npm.taobao.org/probe.gl/download/probe.gl-3.0.3.tgz#e4d13bbd38c5895b54b4740e72468e65d66ae584"
+  integrity sha1-5NE7vTjFiVtUtHQOckaOZdZq5YQ=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
 
 process-nextick-args@^2.0.0, process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -11562,7 +11761,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rw@^1.3.3:
+rw@1, rw@^1.3.3:
   version "1.3.3"
   resolved "https://registry.npm.taobao.org/rw/download/rw-1.3.3.tgz#3f862dfa91ab766b14885ef4d01124bfda074fb4"
   integrity sha1-P4Yt+pGrdmsUiF700BEkv9oHT7Q=
@@ -11573,6 +11772,13 @@ rxjs@^6.1.0, rxjs@^6.3.3, rxjs@^6.4.0:
   integrity sha1-LjXOgVzUbYTQKiCftOWSHgUdvsc=
   dependencies:
     tslib "^1.9.0"
+
+s2-geometry@^1.2.10:
+  version "1.2.10"
+  resolved "https://registry.npm.taobao.org/s2-geometry/download/s2-geometry-1.2.10.tgz#c6ff22f3eccafd0eea491b60b44c141b9887acab"
+  integrity sha1-xv8i8+zK/Q7qSRtgtEwUG5iHrKs=
+  dependencies:
+    long "^3.2.0"
 
 safe-buffer@5.1.2, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
@@ -11652,6 +11858,11 @@ screenfull@^4.1.0:
   version "4.2.0"
   resolved "https://registry.npm.taobao.org/screenfull/download/screenfull-4.2.0.tgz#d5252a5a0f56504719abbed9ebbcd9208115da03"
   integrity sha1-1SUqWg9WUEcZq77Z67zZIIEV2gM=
+
+seer@^0.2.4:
+  version "0.2.5"
+  resolved "https://registry.npm.taobao.org/seer/download/seer-0.2.5.tgz#f0975153741f4d1c3916a144eef4738458bcb05a"
+  integrity sha1-8JdRU3QfTRw5FqFE7vRzhFi8sFo=
 
 select-hose@^2.0.0:
   version "2.0.0"
