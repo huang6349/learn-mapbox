@@ -9,3 +9,33 @@ English | [简体中文](./README_zh-CN.md)
 Learning mapbox
 
 [Examples](https://jolly-lichterman-708ee5.netlify.com/)
+
+## preview
+
+example 1
+
+![example](./images/TIM截图20190704100155.png)
+
+example 2
+
+![example](./images/TIM截图20190704100218.png)
+
+example 3
+
+![example](./images/TIM截图20190704100241.png)
+
+example 4
+
+![example](./images/TIM截图20190704100309.png)
+
+example 5
+
+![example](./images/TIM截图20190704100330.png)
+
+example 6
+
+![example](./images/TIM截图20190704100529.png)
+
+example 7
+
+![example](./images/TIM截图20190704100700.png)
