@@ -1,0 +1,14 @@
+{
+  "version": 8,
+  "center": [114.29, 30.55],
+  "sources": {},
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "rgba(9, 16, 29, 1)"
+      }
+    }
+  ]
+}

@@ -35,6 +35,15 @@ export default {
   targets: {
     ie: 9,
   },
+  chainWebpack: function(config) {
+    config.module
+      .rule('workerize')
+      .test(/\.workerize\.js$/i)
+      .use('workerize')
+      .loader('workerize-loader')
+      .end();
+    config.output.globalObject('this');
+  },
   theme: {
     '@border-radius-base': '2px',
     '@table-padding-vertical': '10px',
